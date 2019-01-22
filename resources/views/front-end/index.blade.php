@@ -1,5 +1,7 @@
 @extends('layouts.front')
 
+@section('title','| Home')
+
 @section('content')
 
 <!-- Pillar Of Islam -->
@@ -7,7 +9,7 @@
     <div class="islams-pillars islams-pillars--style-2 d-flex justify-content-between justify-content-lg-center align-items-center flex-wrap flex-xl-nowrap flex-xx-nowrap flex-sp-nowrap">
         <div class="islams-pillars__content text-left">
             <h3>Every muslim needs to realise the </h3>
-            <h2>Importance of the “Piller” of Islam</h2>
+            <h2>Importance of the “Pillars” of Islam</h2>
             <p><span>Islam</span> is the know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues</p>
             <a href="about-us.html" class="cr-btn cr-btn--transparent cr-btn--dark cr-btn--sm"><span>Read more</span></a>
         </div>
@@ -52,8 +54,8 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
                 <div class="section-title text-center">
-                    <h4>Our “Activities”</h4>
-                    <h2>Here is our Activities</h2>
+                    <h4>Our “Services”</h4>
+                    <h2>Here is our Services</h2>
                     <p><span>Islam</span> is the know how to pursue pleasure rationally encounter consequences that are extremely painful again is there anyone who loves or pursues or desires to obtain pain of itself</p>
                 </div>
             </div>
@@ -69,7 +71,7 @@
                         </a>
                     </div>
                     <figcaption class="activity__content text-center">
-                        <h3><a href="single-activity.html">Quran Learning</a></h3>
+                        <h3><a href="single-activity.html">Shahada</a></h3>
                         <p>Islam is the know how to pursuesure rationally encounter consequences  extremely painful again we love islam for peace </p>
                     </figcaption>
                 </figure>
@@ -84,7 +86,7 @@
                         </a>
                     </div>
                     <figcaption class="activity__content text-center">
-                        <h3><a href="single-activity.html">Funeral Service</a></h3>
+                        <h3><a href="single-activity.html">Medical Treatement</a></h3>
                         <p>Islam is the know how to pursuesure rationally encounter consequences  extremely painful again we love islam for peace </p>
                     </figcaption>
                 </figure>
@@ -99,57 +101,11 @@
                         </a>
                     </div>
                     <figcaption class="activity__content text-center">
-                        <h3><a href="single-activity.html">Mosque Development</a></h3>
+                        <h3><a href="single-activity.html">Legal Services</a></h3>
                         <p>Islam is the know how to pursuesure rationally encounter consequences  extremely painful again we love islam for peace </p>
                     </figcaption>
                 </figure>
             </div><!-- //Single Activity -->
-
-            <!-- Single Activity -->
-            <div class="activity-wrap">
-                <figure class="activity">
-                    <div class="activity__thumb">
-                        <a href="single-activity.html">
-                            <img src="images/activity/1.jpg" alt="activity image">
-                        </a>
-                    </div>
-                    <figcaption class="activity__content text-center">
-                        <h3><a href="single-activity.html">Quran Learning</a></h3>
-                        <p>Islam is the know how to pursuesure rationally encounter consequences  extremely painful again we love islam for peace </p>
-                    </figcaption>
-                </figure>
-            </div><!-- //Single Activity -->
-
-            <!-- Single Activity -->
-            <div class="activity-wrap">
-                <figure class="activity">
-                    <div class="activity__thumb">
-                        <a href="single-activity.html">
-                            <img src="images/activity/2.jpg" alt="activity image">
-                        </a>
-                    </div>
-                    <figcaption class="activity__content text-center">
-                        <h3><a href="single-activity.html">Funeral Service</a></h3>
-                        <p>Islam is the know how to pursuesure rationally encounter consequences  extremely painful again we love islam for peace </p>
-                    </figcaption>
-                </figure>
-            </div><!-- //Single Activity -->
-
-            <!-- Single Activity -->
-            <div class="activity-wrap">
-                <figure class="activity">
-                    <div class="activity__thumb">
-                        <a href="single-activity.html">
-                            <img src="images/activity/3.jpg" alt="activity image">
-                        </a>
-                    </div>
-                    <figcaption class="activity__content text-center">
-                        <h3><a href="single-activity.html">Mosque Development</a></h3>
-                        <p>Islam is the know how to pursuesure rationally encounter consequences  extremely painful again we love islam for peace </p>
-                    </figcaption>
-                </figure>
-            </div><!-- //Single Activity -->
-
         </div>
     </div>
 </section><!-- //Activities area -->
@@ -375,200 +331,42 @@
     </div>
 </section><!-- //Team Area -->
 
-<!-- Product Area -->
-<div class="product-area ptb--150 bg--pattern">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
-                <div class="section-title text-center">
-                    <h4>Our “Shop”</h4>
-                    <h2>Visit our Shop</h2>
-                    <p>Islam is the know how to pursue pleasure rationally encounter consequences that are extremely painful again is there anyone who loves or pursues or desires to obtain pain of itself</p>
+@endsection
+
+@section('banner')
+<div class="banner-area">
+        <div class="banner banner-slide-active fullscreen slide-animate-text slider-arrow--style1 arrow--dark">
+
+            <!-- Single Banner -->
+            <div class="banner__single right-side--bg fullscreen d-flex flex-wrap flex-md-nowrap justify-content-center align-items-center">
+                <div class="banner__content color--theme text-center">
+                    <img src="images/others-png/bismilla-word-theme.png" alt="bismillah word">
+                    <h3>O’ Allah we believe that</h3>
+                    <h1>Only you can save us</h1>
+                    <div class="banner__content__button">
+                        <a href="about-us.html" class="cr-btn cr-btn--theme cr-btn--transparent cr-btn--sm"><span>Learn More</span></a>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="products d-flex justify-content-center flex-wrap">
-        <!-- Single Product -->
-        <div class="product">
-            <div class="product__thumb">
-                <img src="images/product/1.jpg" alt="product thumb">
-            </div>
-            <div class="product__content">
-                <h5><a href="product-details.html">Prayer Cap</a></h5>
-                <span class="product-price">$15</span>
-            </div>
-            <div class="product__action">
-                <ul>
-                    <li><a href="cart.html"><i class="fa fa-opencart"></i></a></li>
-                    <li><a href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                </ul>
-            </div>
-        </div><!-- //Single Product -->
-
-        <!-- Single Product -->
-        <div class="product">
-            <div class="product__thumb">
-                <img src="images/product/2.jpg" alt="product thumb">
-            </div>
-            <div class="product__content">
-                <h5><a href="product-details.html">Attar Perfume</a></h5>
-                <span class="product-price">$35</span>
-            </div>
-            <div class="product__action">
-                <ul>
-                    <li><a href="cart.html"><i class="fa fa-opencart"></i></a></li>
-                    <li><a href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                </ul>
-            </div>
-        </div><!-- //Single Product -->
-
-        <!-- Single Product -->
-        <div class="product">
-            <div class="product__thumb">
-                <img src="images/product/3.jpg" alt="product thumb">
-            </div>
-            <div class="product__content">
-                <h5><a href="product-details.html">Tajbhi</a></h5>
-                <span class="product-price">$15</span>
-            </div>
-            <div class="product__action">
-                <ul>
-                    <li><a href="cart.html"><i class="fa fa-opencart"></i></a></li>
-                    <li><a href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                </ul>
-            </div>
-        </div><!-- //Single Product -->
-
-        <!-- Single Product -->
-        <div class="product">
-            <div class="product__thumb">
-                <img src="images/product/4.jpg" alt="product thumb">
-            </div>
-            <div class="product__content">
-                <h5><a href="product-details.html">Prayer Mat</a></h5>
-                <span class="product-price">$35</span>
-            </div>
-            <div class="product__action">
-                <ul>
-                    <li><a href="cart.html"><i class="fa fa-opencart"></i></a></li>
-                    <li><a href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                </ul>
-            </div>
-        </div><!-- //Single Product -->
-
-        <!-- Single Product -->
-        <div class="product">
-            <div class="product__thumb">
-                <img src="images/product/5.jpg" alt="product thumb">
-            </div>
-            <div class="product__content">
-                <h5><a href="product-details.html">Holy Quran</a></h5>
-                <span class="product-price">$110</span>
-            </div>
-            <div class="product__action">
-                <ul>
-                    <li><a href="cart.html"><i class="fa fa-opencart"></i></a></li>
-                    <li><a href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                </ul>
-            </div>
-        </div><!-- //Single Product -->
-
-    </div>
-</div><!-- //Product Area -->
-
-<!-- Blog Area -->
-<section class="cr-section blog-area pt--150 pb--140 bg--white">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
-                <div class="section-title text-center">
-                    <h4>From “Blog”</h4>
-                    <h2>Latest Blog Post</h2>
-                    <p>Islam is the know how to pursue pleasure rationally encounter consequences that are extremely painful again is there anyone who loves or pursues or desires to obtain pain of itself</p>
+                <div class="banner__side-photo">
+                    <img src="images/others-png/munajat.png" alt="banner side image">
                 </div>
-            </div>
-        </div>
-        <div class="row">
+            </div><!-- //Single Banner -->
 
-            <!-- Start Single Blog -->
-            <div class="col-lg-6 col-md-6 col-xl-3">
-                <article class="blog wow fadeInUp">
-                    <div class="blog__thumb">
-                        <a href="blog-details.html">
-                            <img src="images/blog/1.jpg" alt="single blog thumb">
-                        </a>
+            <!-- Single Banner -->
+            <div class="banner__single right-side--bg fullscreen d-flex justify-content-center flex-wrap flex-md-nowrap align-items-center">
+                <div class="banner__content color--theme text-center">
+                    <img src="images/others-png/bismilla-word-theme.png" alt="bismillah word">
+                    <h3>In the name of <strong>“Allah”</strong></h3>
+                    <h1>Come to the straight path</h1>
+                    <div class="banner__content__button">
+                        <a href="about-us.html" class="cr-btn cr-btn--theme cr-btn--transparent cr-btn--sm"><span>Learn More</span></a>
                     </div>
-                    <div class="blog__content">
-                        <div class="blog__content__meta">
-                            <p>December 20, 2017 - <a href="blogs.html">Afser</a></p>
-                        </div>
-                        <h4 class="blog-title"><a href="blog-details.html">Islam is the only one way for peace </a></h4>
-                        <p>Islam is the know how to pursuesure nally encounter consequences  extremely </p>
-                        <a href="blog-details.html" class="cr-readmore">Read</a>
-                    </div>
-                </article>
-            </div><!-- //Start Single Blog -->
-
-            <!-- Start Single Blog -->
-            <div class="col-lg-6 col-md-6 col-xl-3">
-                <article class="blog wow fadeInUp">
-                    <div class="blog__thumb">
-                        <a href="blog-details.html">
-                            <img src="images/blog/2.jpg" alt="single blog thumb">
-                        </a>
-                    </div>
-                    <div class="blog__content">
-                        <div class="blog__content__meta">
-                            <p>December 18, 2017 - <a href="blogs.html">Julfiqar</a></p>
-                        </div>
-                        <h4 class="blog-title"><a href="blog-details.html">Salat can help us to move closer to Allah </a></h4>
-                        <p>Islam is the know how to pursuesure nally encounter consequences  extremely </p>
-                        <a href="blog-details.html" class="cr-readmore">Read</a>
-                    </div>
-                </article>
-            </div><!-- //Start Single Blog -->
-
-            <!-- Start Single Blog -->
-            <div class="col-lg-6 col-md-6 col-xl-3">
-                <article class="blog wow fadeInUp">
-                    <div class="blog__thumb">
-                        <a href="blog-details.html">
-                            <img src="images/blog/3.jpg" alt="single blog thumb">
-                        </a>
-                    </div>
-                    <div class="blog__content">
-                        <div class="blog__content__meta">
-                            <p>December 15, 2017 - <a href="blogs.html">Iftekhar</a></p>
-                        </div>
-                        <h4 class="blog-title"><a href="blog-details.html">Ramadan teach us how to realize fasting</a></h4>
-                        <p>Islam is the know how to pursuesure nally encounter consequences  extremely </p>
-                        <a href="blog-details.html" class="cr-readmore">Read</a>
-                    </div>
-                </article>
-            </div><!-- //Start Single Blog -->
-
-            <!-- Start Single Blog -->
-            <div class="col-lg-6 col-md-6 col-xl-3">
-                <article class="blog wow fadeInUp">
-                    <div class="blog__thumb">
-                        <a href="blog-details.html">
-                            <img src="images/blog/4.jpg" alt="single blog thumb">
-                        </a>
-                    </div>
-                    <div class="blog__content">
-                        <div class="blog__content__meta">
-                            <p>December 12, 2017 - <a href="blogs.html">Momen</a></p>
-                        </div>
-                        <h4 class="blog-title"><a href="blog-details.html">Learn about Islam, It is very simple & realistic</a></h4>
-                        <p>Islam is the know how to pursuesure nally encounter consequences  extremely </p>
-                        <a href="blog-details.html" class="cr-readmore">Read</a>
-                    </div>
-                </article>
-            </div><!-- //Start Single Blog -->
+                </div>
+                <div class="banner__side-photo">
+                    <img src="images/others-png/munajat.png" alt="banner side image">
+                </div>
+            </div><!-- //Single Banner -->
 
         </div>
     </div>
-</section><!-- //Blog Area -->
-
 @endsection

@@ -1,31 +1,5 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Hoegi Dawah Center</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+@include('inc.front._head')
 
-		<!-- Favicons -->
-		<link rel="shortcut icon" href="images/favicon.ico">
-		<link rel="apple-touch-icon" href="images/icon.png">
-
-		<!-- Google font (font-family: 'Hind', sans-serif;) -->
-		<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
-
-		<!-- Stylesheets -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/plugins.css">
-		<link rel="stylesheet" href="style.css">
-
-		<!-- Cusom css -->
-	   <link rel="stylesheet" href="css/custom.css">
-
-		<!-- Modernizer js -->
-		<script src="js/vendor/modernizr-3.5.0.min.js"></script>
-	</head>
-	<body>
 		<!--[if lte IE 9]>
 			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 		<![endif]-->
@@ -37,139 +11,14 @@
 		<div class="wrapper" id="wrapper" ng-app="timeCalc" ng-controller="CtrlTimeCalc as timeCalc">
 			
 			<!-- Header -->
-			<header id="header-area" class="header-area sticky--header">
-				<div class="header header--style-2">
-					<!-- Header Top Area <-->
-					<div class="header__top bg--white">
-						<div class="container">
-							<div class="header__top__inner">
-								<div class="logo image--logo hidden-md hidden-sm hidden-xs">
-									<a href="index.html"><img src="images/logo/logo-theme.png" alt="header logo"></a>
-								</div>
-								<div class="header__right">
-									<div class="header__right__top d-flex justify-content-end align-items-center flex-wrap flex-sm-nowrap">
-										<ul class="header__right__times d-flex justify-content-end" >
-											<li><p><i class="icofont icofont-full-sunny"></i>SUNRISE : [{timeCalc.timeSunrise}]</p></li>
-											<li><p><i class="icofont icofont-full-night"></i>SUNSET : [{timeCalc.timeMaghrib}]</p></li>
-										</ul>
-										<ul class="header__right__icons d-flex justify-content-end">
-											<li class="minicart-trigger"><a href="#"><i class="fa fa-opencart"></i><span class="cart-counter">2</span></a></li>
-											<li class="accountbox-trigger"><a href="#"><i class="fa fa-user-o"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div><!-- //Header Top Area -->
-					
-					<!-- Header Bottom Area -->
-					<div class="header__bottom bg--theme">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-12">
-									<!-- Main naviagtion -->
-									<nav class="menu">
-										<ul class="justify-content-center">
-											<li class="cr-dropdown"><a href="index.html">HOME</a>
-												<ul class="cr-dropdown-menu">
-													<li><a href="index.html">Homepage Classic</a></li>
-													<li><a href="index-boxed.html">Homepage Boxed</a></li>
-													<li><a href="index-2.html">Homepage Style 2</a></li>
-													<li><a href="index-slider.html">Homepage Slider</a></li>
-													<li><a href="index-text-slider.html">Homepage Text Slider</a></li>
-												</ul>
-											</li>
-											<li><a href="about-us.html">ABOUT</a></li>
-											<li class="cr-dropdown"><a href="events.html">EVENT</a>
-												<ul class="cr-dropdown-menu">
-													<li><a href="events.html">Events</a></li>
-													<li><a href="event-details.html">Event Details</a></li>
-												</ul>
-											</li>
-											<li class="cr-dropdown"><a href="activities.html">ACTIVITIES</a>
-												<ul class="cr-dropdown-menu">
-													<li><a href="activities.html">Activities</a></li>
-													<li><a href="single-activity.html">Single Activity</a></li>
-												</ul>
-											</li>
-											<li><a href="donation.html">DONATION</a></li>
-											<li class="cr-dropdown"><a href="#">PAGES</a>
-												<ul class="cr-dropdown-menu">
-													<li><a href="shop.html">Shop</a></li>
-													<li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-													<li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-													<li><a href="product-details.html">Product Details</a></li>
-													<li><a href="cart.html">Shopping Cart</a></li>
-													<li><a href="wishlist.html">Wishlist</a></li>
-													<li><a href="checkout.html">Checkout</a></li>
-												</ul>
-											</li>
-											<li class="cr-dropdown"><a href="blogs-right-sidebar.html">BLOG</a>
-												<ul class="cr-dropdown-menu">
-													<li><a href="blogs.html">Blogs</a></li>
-													<li><a href="blogs-right-sidebar.html">Blogs Right Sidebar</a></li>
-													<li><a href="blogs-left-sidebar.html">Blogs Left Sidebar</a></li>
-													<li><a href="blog-details.html">Blog Details</a></li>
-													<li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-												</ul>
-											</li>
-											<li><a href="contact.html">Contact</a></li>
-										</ul>
-									</nav><!-- //Main naviagtion -->
-
-									<!-- Mobile Menu -->
-									<div class="mobile-menu hidden-lg hidden-xlg hidden-xx hidden-sp">
-										<a class="mobile-logo" href="index.html"><img src="images/logo/mobile-logo.png" alt="logo"></a>
-									</div><!-- //Mobile Menu -->
-
-								</div>
-							</div>
-						</div>
-
-					</div>
-					<!-- //Header Bottom Area -->
-					
-					
-
-				</div>
-			</header><!-- //Header -->
+			@include('inc.front.header')
+			<!-- //Header -->
 
 			<!-- Top Banner -->
-			<div class="banner-area">
-				<div class="banner banner-slide-active fullscreen slide-animate-text slider-arrow--style1 arrow--dark">
+				@yield('banner')
 
-					<!-- Single Banner -->
-					<div class="banner__single right-side--bg fullscreen d-flex flex-wrap flex-md-nowrap justify-content-center align-items-center">
-						<div class="banner__content color--theme text-center">
-							<img src="images/others-png/bismilla-word-theme.png" alt="bismillah word">
-							<h3>O’ Allah we believe that</h3>
-							<h1>Only you can save us</h1>
-							<div class="banner__content__button">
-								<a href="about-us.html" class="cr-btn cr-btn--theme cr-btn--transparent cr-btn--sm"><span>Learn More</span></a>
-							</div>
-						</div>
-						<div class="banner__side-photo">
-							<img src="images/others-png/munajat.png" alt="banner side image">
-						</div>
-					</div><!-- //Single Banner -->
-
-					<!-- Single Banner -->
-					<div class="banner__single right-side--bg fullscreen d-flex justify-content-center flex-wrap flex-md-nowrap align-items-center">
-						<div class="banner__content color--theme text-center">
-							<img src="images/others-png/bismilla-word-theme.png" alt="bismillah word">
-							<h3>In the name of <strong>“Allah”</strong></h3>
-							<h1>Come to the straight path</h1>
-							<div class="banner__content__button">
-								<a href="about-us.html" class="cr-btn cr-btn--theme cr-btn--transparent cr-btn--sm"><span>Learn More</span></a>
-							</div>
-						</div>
-						<div class="banner__side-photo">
-							<img src="images/others-png/munajat.png" alt="banner side image">
-						</div>
-					</div><!-- //Single Banner -->
-
-				</div>
-			</div><!-- //Top Banner -->
+			<!-- Header-->
+			@yield('inc.front.header')
 
 			<!-- Page Conent -->
 			<main class="page-content">
@@ -177,108 +26,8 @@
 			</main><!-- //Page Conent -->
 
 			<!-- Footer -->
-			<footer id="footer" class="footer-area fixed--footer">
-
-				<!-- Footer Widgets -->
-				<div class="footer__widgets ptb--100 bg--dark--light">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="widgets footer--widgets d-flex justify-content-between flex-md-wrap flex-wrap flex-lg-nowrap">
-
-									<!-- Single Widgets -->
-									<div class="single-widget widget--details">
-										<div class="logo">
-											<a href="index.html">
-												<img src="images/logo/logo-dark.png" alt="footer logo">
-											</a>
-										</div>
-										<p>Islam is the know how to pursue pleasure rationally encounter consequences</p>
-										<div class="social-icons social-icons--rounded">
-											<ul>
-												<li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-												<li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-												<li class="instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-												<li class="google-plus"><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
-											</ul>
-										</div>
-									</div><!-- //Single Widgets -->
-
-									<!-- Single Widgets -->
-									<div class="single-widget widget--support">
-										<h4 class="widget-title">Support</h4>
-										<ul>
-											<li><a href="about-us.html">About us</a></li>
-											<li><a href="#">Help Center</a></li>
-											<li><a href="shop-right-sidebar.html">Shop now</a></li>
-											<li><a href="blogs-right-sidebar.html">Latest Blog</a></li>
-											<li><a href="contact.html">Contact</a></li>
-										</ul>
-									</div><!-- //Single Widgets -->
-
-									<!-- Single Widgets -->
-									<div class="single-widget widget--contact">
-										<h4 class="widget-title">Contact</h4>
-										<ul>
-											<li>
-												259, Islamic Center, Center Hall Main Street, Las Vagas, USA
-											</li>
-											<li>
-												<a href="callto://+01254365785">01254 365 785 (toll free)</a>
-												<a href="callto://+02157587452">02157 587 452</a>
-											</li>
-											<li>
-												<a href="mailto://infomation@azan.com">infomation@azan.com</a>
-												<a href="mailto://www.azan.com">www.azan.com</a>
-											</li>
-										</ul>
-									</div><!-- //Single Widgets -->
-
-									<div class="widget-row">
-
-										<!-- Single Widget -->
-										<div class="single-widget widget--newsletter">
-											<h4 class="widget-title">Newsletter</h4>
-											<form action="#">
-												<input type="text" placeholder="Email here">
-												<button type="submit"><i class="fa fa-paper-plane-o"></i></button>
-											</form>
-										</div><!-- //Single Widget -->
-
-										<!-- Single Widget -->
-										<div class="single-widget widget--instagram">
-											<h4 class="widget-title">Instagram</h4>
-											<ul>
-												<li><a href="https://www.instagram.com/p/BcRw69njBbZ/?taken-by=portfolio.devitems"><img src="images/instagram-widget/1.png" alt="widget instagram"></a></li>
-												<li><a href="https://www.instagram.com/"><img src="images/instagram-widget/2.png" alt="widget instagram"></a></li>
-												<li><a href="https://www.instagram.com/"><img src="images/instagram-widget/3.png" alt="widget instagram"></a></li>
-											</ul>
-										</div><!-- //Single Widget -->
-
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!-- //Footer Widgets -->
-
-				<!-- Footer Copyright -->
-				<div class="footer__copyright bg--dark ptb--20">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-md-6">
-								<p>Copyright© <a href="https://hastech.company">Hastech</a>, All rights Reserved, 2018</p>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<div class="footer__payment-icons text-right">
-									<img src="images/icons/payment-method.png" alt="payment method">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!-- //Footer Copyright -->
-
-			</footer><!-- //Footer -->
+			@include('inc.front.footer')
+			<!-- //Footer -->
 
 			<!-- Login Form -->
 			<div class="accountbox-wrapper">
@@ -411,15 +160,8 @@
 
 		</div><!-- //Main wrapper -->
 
+		<!-- Map -->
+		@yield('map')
+		<!-- Map End-->
 
-		<!-- JS Files -->
-		<script src="js/vendor/jquery-3.2.1.min.js"></script>
-		<script src="js/angular.min.js"></script>
-		<script src="js/popper.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/plugins.js"></script>
-		<script src="js/salat-times.js"></script>
-		<script src="js/active.js"></script>
-		<script src="js/scripts.js"></script>
-	</body>
-</html>
+@include('inc.front._foot')

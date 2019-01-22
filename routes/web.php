@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('front-end.index');
-});
+Route::get('/', 'PagesController@index');
+Route::get('/contact', 'PagesController@contact');
+Route::get('/services', 'PagesController@services');
