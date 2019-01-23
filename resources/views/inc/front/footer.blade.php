@@ -43,11 +43,12 @@
                                         3rd floor, 346-8, Imun-dong, Dongdaemun, Seoul, South Korea
                                     </li>
                                     <li>
-                                        <a href="callto://+82236750570">+82 2 3675 0570</a>
-                                        <a href="callto://+821024160889">+82 10 2416 0889</a>
+                                        <a href="callto://+82236750570">+821090290889</a>
+                                        <a href="callto://+821024160889">+82 1046881520</a>
+                                        <a href="callto://+821024160889">+82 10 24169937</a>
                                     </li>
                                     <li>
-                                        <a href="mailto://khshsalah@yahoo.com">khshsalah@yahoo.com</a>
+                                        <a href="mailto://khshsalah@yahoo.com">umarkimdawah@gmail.com</a>
                                     </li>
                                 </ul>
                             </div><!-- //Single Widgets -->

@@ -85,12 +85,13 @@
                                 <p>Lets do better design was born and I will give you a mplete of the tem, and pund  actual teachings of the great explorer ecial contet to make it beautiful know how to pursu obis est eligend</p>
                             </div>
                             <div class="comment-box">
-                                <form id="contact-form" action="mail.php" method="post">
-                                    <div class="single-input">
+                                <form id="contact-form" action="{{ url('contact') }}" method="POST">
+									{{ csrf_field() }}
+									<div class="single-input">
                                         <input type="text" name="name" id="comment-name" placeholder="Enter your name">
                                     </div>
                                     <div class="single-input">
-                                        <input type="email" placeholder="Your email">
+                                        <input type="email" name="email" placeholder="Your email">
                                     </div>
                                     <div class="single-input">
                                         <input type="text" name="phone" placeholder="Phone">

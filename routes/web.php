@@ -12,5 +12,11 @@
 */
 
 Route::get('/', 'PagesController@index');
-Route::get('/contact', 'PagesController@contact');
+Route::get('/contact', 'PagesController@getContact');
+Route::post('/contact', 'PagesController@postContact');
 Route::get('/services', 'PagesController@services');
+
+
+Route::get('/admin', function (){
+    return view('layouts.back');
+});
